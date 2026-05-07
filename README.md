@@ -1,21 +1,55 @@
 # Credex AI Spend Audit
 
-A web application that helps startups analyze AI tool spending and identify potential savings opportunities.
+AI-powered web application that helps startups and teams analyze AI tool spending, identify unnecessary subscriptions, and discover potential monthly savings.
 
-## Tech Stack
+---
 
-- React + Vite
-- Node.js + Express
-- MongoDB
-- Gemini API
+# Overview
 
-## Features
+Many startups overspend on AI subscriptions because of unused seats, expensive plans, overlapping tools, or poor pricing choices.
 
-- AI spend input form
-- Savings recommendations
+Credex AI Spend Audit helps teams:
+- Track AI tool usage
+- Estimate overspending
+- Identify downgrade opportunities
+- Generate AI-powered audit summaries
+- Capture leads for consulting or optimization services
+
+---
+
+# Features
+
+- AI tool spend tracking
+- Savings estimation engine
 - AI-generated summaries
 - Shareable audit reports
+- Lead capture system
+- Auto-saved form persistence
+- Responsive SaaS-style UI
 
-## Status
+---
 
-Project setup completed. MVP development in progress.
+# Tech Stack
+
+## Frontend
+- React JS
+- Vite
+- Tailwind CSS
+
+## Backend
+- Node.js
+- Express.js
+
+## Database
+- MongoDB Atlas
+
+## AI
+- Gemini API
+
+---
+
+# Project Structure
+
+```bash
+client/   → Frontend application
+server/   → Backend API
