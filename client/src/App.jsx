@@ -1,14 +1,8 @@
+import AuditPage from "./pages/AuditPage";
 
-import './App.css'
-
-function App() {
-
+export default function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline ">Hello Ali</h1>
-    </>
-  )
+    <AuditPage />
+  );
 }
-
-export default App
